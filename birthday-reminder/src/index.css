@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 35%;
+  border: 2px;
+  border-radius: 3px;
+  box-shadow: inset;
+  background-color: #6f69ac;
+  padding: 25px;
+}
+
+main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2.5rem;
+  align-items: center;
+}
+.person img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+h2 {
+  text-align: center;
+}
+.container button {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: white;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: black;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+}
